@@ -1,0 +1,4 @@
+Voici les commandes pour compiler le fichier de code assembleur (hello.s)
+
+nasm -f elf64 -o hello.o hello.s
+ld -o hello hello.o
